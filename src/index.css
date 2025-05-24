@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #FFB476, #FF480F, #FFA88C);
+    height: 100vh; /* This ensures the gradient covers the full height of the viewport */
+}
+
+.custom-toast{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+  }

@@ -1,0 +1,65 @@
+.infoBoxContainer{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.infoBoxRow{
+    background-color: white;
+    border-radius: 40px;
+}
+
+.infoBoxCol p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #DC143C;
+    text-align: justify;
+}
+
+@media (min-width: 370px) {
+    .infoBoxCol p{
+        font-size: 16px;
+    }
+}
+
+
+  @media (min-width: 576px) {
+    .infoBoxCol p{
+        font-size: 18px;
+    }
+    .infoBoxContainer{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .infoBoxCol p{
+        font-size: 20px;
+    }
+    .infoBoxContainer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+   
+  }
+  
+  @media (min-width: 992px) {
+    .infoBoxCol p{
+        font-size: 22px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .infoBoxCol p{
+        font-size: 24px;
+    }
+      
+  }
+  
+  @media (min-width: 1400px) {
+    .infoBoxCol p{
+        font-size: 28px;
+    }
+  }

@@ -1,0 +1,84 @@
+.details-modal .modal-content{
+    border-radius: 30px !important;
+    border: 2px solid black;
+}
+.DetailsModalInfoContainer{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: url('../images/productbackground.png');
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.detailProductNameCol p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    color: #DC143C;
+}
+
+.formLabel{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.DetailsInput{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    border: none;
+    background-color: #F9E9E9;
+    border-radius: 0;
+    color: #121212;
+
+}
+
+.confirmButton{
+    width: 160px;
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 8px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.caTitleText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.caInfoText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.caButton{
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 8px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.rcButton{
+    border: 1px solid #DC143C;
+    background-color: white;
+    color: #DC143C;
+    border-radius: 8px;
+}

@@ -1,0 +1,374 @@
+.productBox{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.vwContainer{
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+.swiper-slide {
+    overflow: hidden;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    display: none;
+}
+
+/* Custom navigation buttons */
+.custom-prev, .custom-next {
+    position: absolute;
+    top: 50%;  /* Vertically center */
+    transform: translateY(-50%);  /* Adjust for centering */
+    color: #DC143C;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.custom-prev {
+    left: 10px;  /* Position to the left */
+}
+
+.custom-next {
+    right: 10px;  /* Position to the right */
+}
+
+.custom-prev .faleft, .custom-next .faleft {
+    font-size: 12px;  /* Increase icon size */
+}
+
+
+.vwtext{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    color: #DC143C;
+}
+
+
+
+.productImageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.productImage{
+    width: 100%;
+    height: auto;
+}
+
+.productNamePriceContainer{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.productNamePriceContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    color: black;
+}
+
+.itemPrice{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700 !important;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+}
+
+.orPrice{
+    text-decoration: line-through;
+    font-size: 8px;
+    font-weight: 400;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.quantityContainer{
+    padding: 5px;
+    background-color: #FFD770;
+    border-radius: 5px;
+    width: 86px;
+}
+
+.categoryName{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+}
+
+
+.qtyName {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+}
+
+
+.totalPrice{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 9px;
+    color: black;
+}
+
+.qtyButton{
+    width: 22px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+.qunatityNumber{
+    padding-left: 6px;
+    padding-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+}
+
+
+.arrowProductIcon{
+    color: #DC143C;
+}
+
+.cartButton{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    background-color: #DC143C;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.buyNowButton{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    background-color: #FFD466;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+@media (min-width: 370px) {
+    .productNamePriceContainer p{
+        font-size: 10px;
+    }
+    
+    .itemPrice{
+        font-size: 10px;
+    }
+    
+    .orPrice{
+        font-size: 9px;
+    }
+    
+    .quantityContainer{
+        width: 85px;
+    }
+    .qtyButton{
+        width: 24px;
+        border: none;
+    }
+    .qunatityNumber{
+        font-size: 10px;
+    }
+    .qtyName{
+        font-size: 12px;
+    }
+    
+    .totalPrice{
+        font-size: 12px;
+    }
+    .categoryName{
+        font-size: 12px;
+    }
+}
+
+
+  @media (min-width: 576px) {
+    .productNamePriceContainer p{
+        font-size: 14px;
+    }
+    
+    .itemPrice{
+        font-size: 14px;
+    }
+    
+    .orPrice{
+        font-size: 11px;
+    }
+    
+    .quantityContainer{
+        width: 105px;
+    }
+    .qunatityNumber{
+        font-size: 20px;
+    }
+    
+    .totalPrice{
+        font-size: 18px;
+    }
+    .cartButton{
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 14px;
+    
+    }
+
+    .buyNowButton{
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 14px;
+    }
+    .qtyName{
+        font-size: 14px;
+    }
+    .vwContainer{
+        top: 15px;
+        right: 16px;
+    }
+    
+    .vwtext{
+        font-size: 14px;
+    }
+    .categoryName{
+        font-size: 14px;
+        cursor: pointer;
+    }
+  
+    
+  }
+  
+  @media (min-width: 768px) {
+    .productNamePriceContainer p{
+        font-size: 16px;
+    }
+    
+    .itemPrice{
+        font-size: 16px;
+    }
+    
+    .orPrice{
+        font-size: 12px;
+    }
+    
+    .quantityContainer{
+        width: 110px;
+    }
+    .cartButton{
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 16px;
+    
+    }
+    .buyNowButton{
+        padding-left: 45px;
+        padding-right: 45px;
+        font-size: 16px;
+    }
+    .totalPrice{
+        font-size: 20px;
+    }
+    .qtyName{
+        font-size: 16px;
+    }
+   
+  }
+  
+  @media (min-width: 992px) {
+    .productNamePriceContainer p{
+        font-size: 14px;
+    }
+    
+    .itemPrice{
+        font-size: 18px;
+    }
+    
+    .orPrice{
+        font-size: 13px;
+    }
+    
+    .quantityContainer{
+        width: 120px;
+    }
+    
+    .totalPrice{
+        font-size: 18px;
+    }
+    .cartButton{
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 22px;
+    }
+    .buyNowButton{
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 22px;
+    }
+    .qtyName{
+        font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .productNamePriceContainer p{
+        font-size: 16px;
+    }
+    .qtyButton{
+        width: 24px;
+    }
+    .qtyName{
+        font-size: 22px;
+    }
+    .buyNowButton{
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 22px;
+    }
+  }

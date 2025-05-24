@@ -1,0 +1,114 @@
+.footerBannerContainer{
+    padding-top: 60px;
+    background-color: #FF5D25;
+    overflow: hidden;
+}
+
+.footerImageCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.footerImageContainer{
+    width: 140px;
+    height: auto;
+}
+
+.footerTextInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo{
+    width: 100%;
+    height: auto;
+}
+
+.footerImageCol p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: white; 
+}
+
+.footerTextInfoContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+}
+
+.footerTermsContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    color: white; 
+}
+
+@media (min-width: 370px) {
+    .footerTextContainer p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        color: black; 
+    }
+    .footerImageCol p{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .footerTextContainer p{
+        font-size: 16px;
+    }
+    .footerImageCol p{
+        font-size: 20px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .footerImageCol{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 0;
+    }
+    .footerTextInfoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+     
+    }
+    .footerTextInfoContainer p{
+        font-size: 12px;
+    }
+    .footerImageCol p{
+        font-size: 22px;
+    }
+
+}
+  
+  @media (min-width: 992px) {
+    .footerTextInfoContainer p{
+        font-size: 14px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .footerTextInfoContainer p{
+        font-size: 16px;
+    }
+    .footerImageCol p{
+        font-size: 24px;
+    }
+  }

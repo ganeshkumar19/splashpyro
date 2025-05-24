@@ -1,0 +1,148 @@
+
+
+.cartModalInfoContainer{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: url('../images/productbackground.png');
+    height: 100px;
+    border-bottom: 2px solid black;
+    
+}
+
+
+.cart-modal .modal-dialog {
+    max-height: 600px; /* Ensuring that the dialog doesn't exceed this height */
+    overflow-y: auto;  /* Allows scrolling */
+}
+
+.cart-modal .modal-content {
+    border: 2px solid black;
+    border-right: 0;
+    max-height: 600px;  /* Same as modal-dialog to reinforce the maximum height */
+    overflow-y: auto;  /* Allows scrolling */
+}
+
+.npcText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px; 
+}
+
+.cartProductNameCol p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+    color: #DC143C;
+}
+
+.cartitemName{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.cartitemPrice{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+}
+
+.cartProductTotal{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+}
+
+.cartTotalContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+
+.cartProductImageContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.cartproductImage{
+    width: 100%;
+    height: 100%;
+}
+
+.cartProductContainer{
+    border-bottom: 2px solid black;
+}
+
+.grandTotal{
+    border-top: 2px dashed rgb(133, 131, 131);
+    border-bottom: 2px dashed rgb(133, 131, 131);
+}
+
+.grandTotal p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+}
+
+.proceedButton{
+    width: 120px;
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+@media (min-width: 370px) {
+    .cartitemPrice{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cart-modal .modal-dialog {
+        max-height: 500px; /* Ensuring that the dialog doesn't exceed this height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+    .cart-modal .modal-content {
+        max-height: 500px;  /* Same as modal-dialog to reinforce the maximum height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+    .cart-modal .modal-content::-webkit-scrollbar {
+        width: 6px; /* Minimal width to keep it functional but less noticeable */
+        background-color: transparent; /* Ensures scrollbar does not have a background */
+    }
+    
+    .cart-modal .modal-content::-webkit-scrollbar-thumb {
+        background-color: rgba(220, 20, 60, 0.5); /* Same color as your proceed button but with transparency */
+    }
+    .cartitemName{
+        font-size: 18px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .cart-modal .modal-dialog {
+        min-width: 900px; /* Ensuring that the dialog doesn't exceed this height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+    .cart-modal .modal-content {
+        min-width: 900px;  /* Same as modal-dialog to reinforce the maximum height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+  }

@@ -1,0 +1,24 @@
+.productBoxCol {
+    background-color: white; /* Match background color */
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    margin-top: -10px; /* Adjust this value based on actual overlap needed */
+    transition: all 0.5s ease-in-out;
+}
+
+.productBoxCol.open {
+    max-height: 1000px; /* Sufficient max-height to show all content */
+    opacity: 1; /* Make visible when open */
+    overflow-y: auto; /* Allow scrolling within the container */
+}
+
+/* Optional: Hide scrollbar for aesthetic reasons */
+.productBoxCol::-webkit-scrollbar {
+    display: none;
+}
+
+.productBoxCol {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+

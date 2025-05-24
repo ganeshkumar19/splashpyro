@@ -1,0 +1,74 @@
+.tickContainer{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.thanks-modal .modal-content{
+    border-radius: 30px !important;
+}
+.thankyouContainer{
+    background-color: #FFD466;
+    border-radius: 30px !important;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+}
+
+
+
+.refnoText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+}
+
+.processText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+}
+
+
+.cspButton{
+    width: 180px;
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+@media (min-width: 370px) {
+    .refnoText{
+        font-size: 14px;
+        color: black;
+    }
+    
+    .processText{
+        font-size: 16px;
+        color: black;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    .refnoText{
+        font-size: 16px;
+        color: black;
+    }
+    
+    .processText{
+        font-size: 18px;
+        color: black;
+    }
+    
+}
+  

@@ -1,0 +1,208 @@
+.categoryNameContainer {
+    padding: 10px;
+    background-color: white; /* Ensure this matches the background of productBoxCol */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0px; /* Remove any default margin to tighten the space */
+}
+
+.category-open{
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+}
+
+.categoryNameContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    color: #DC143C;
+}
+
+.arrowProducticon{
+    color: #DC143C;
+}
+.productsContainer h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 27px;
+    color: black;
+}
+
+.productInfoRow{
+    background-color: #FF5D27;
+    position: sticky;
+    top: 40px;
+    z-index: 10;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+.infoText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+}
+
+.cartBtnConatiner{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cartNumber{
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    right: 10px;
+    background-color: #DC143C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.cartImage{
+    width: 15px;
+    height: 15px;
+}
+
+
+.arrowicon{
+    width: 20px;
+    color: #DC143C;
+}
+
+
+
+
+.menu-open {
+    display: block; /* Display when open */
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/* Optional: styling for scrollbar */
+
+@media (min-width: 370px) {
+    .categoryNameContainer p{
+        font-size: 16px;
+    }
+   .productsContainer h3{
+    font-size: 24px;
+   }
+   .infoText{
+    font-size: 14px;
+   }
+   .cartBtnConatiner{
+    width: 30px;
+    height: 30px;
+    }
+
+    .cartImage{
+        width: 18px;
+        height: 18px;
+    }
+    .dropdown-toggle-button{
+        font-size: 14px;
+    }
+    .productInfoRow{
+        top: 55px;
+    }
+}
+
+
+  @media (min-width: 576px) {
+    .categoryNameContainer p{
+        font-size: 18px;
+    }
+    .productsContainer h3{
+        font-size: 34px;
+    }
+    .infoText{
+        font-size: 16px;
+    }
+    .cartBtnConatiner{
+        width: 35px;
+        height: 35px;
+    }
+    .dropdown-toggle-button{
+        font-size: 16px;
+    }
+    
+    .cartImage{
+            width: 20px;
+            height: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .categoryNameContainer p{
+        font-size: 20px;
+    }
+    .productsContainer h3{
+        font-size: 36px;
+    }
+    .infoText{
+        font-size: 18px;
+    }
+    .dropdown-toggle-button{
+        font-size: 18px;
+        width: 180px;
+    }
+   
+  }
+  
+  @media (min-width: 992px) {
+    .productsContainer h3{
+        font-size: 38px;
+    }
+    .infoText{
+        font-size: 20px;
+    }
+    .dropdown-toggle-button{
+        font-size: 20px;
+    }    
+  }
+
+  @media (min-width: 1200px) {
+    .categoryNameContainer p{
+        font-size: 24px;
+    }
+    .productsContainer h3{
+        font-size: 42px;
+    }
+    .infoText{
+        font-size: 24px;
+    }
+    .dropdown-toggle-button{
+        font-size: 18px;
+        width: 220px;
+    }
+    .dropdown-menu{
+        width: 220px;
+    }
+      
+  }
+  
+  @media (min-width: 1400px) {
+    
+  }

@@ -1,0 +1,125 @@
+.heroBanner{
+    background-image: url('../images/herobanner.png');
+    background-repeat: no-repeat;
+    min-height:28,0px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTextContainer h3{
+    margin-top: 20px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.heroTextContainer p{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.heroButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: none;
+
+}
+
+.heroButtonContainer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #DC143C;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 576px) {
+    .heroBanner{
+
+        min-height: 380px;
+    }
+    .heroTextContainer h3{
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .heroTextContainer p{
+        font-size: 23px;
+    }
+
+ }
+  
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .heroTextContainer h3{
+        font-size: 34px;
+    }
+    .heroTextContainer p{
+        font-size: 26px;
+    }
+}
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .heroBanner{
+        min-height: 450px;
+    }
+    .heroTextContainer h3{
+        font-size: 37px;
+    }
+    .heroTextContainer p{
+        font-size: 29px;
+    }
+   
+  }
+  
+  @media (min-width: 1200px) {
+    .heroBanner{
+        min-height: 520px;
+    }
+    .heroTextContainer h3{
+        font-size: 40px;
+    }
+    .heroTextContainer p{
+        font-size: 32px;
+    }
+    .heroButtonContainer button{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 18px;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .heroBanner{
+        min-height: 680px;
+    }
+    .heroTextContainer h3{
+        font-size: 44px;
+    }
+    .heroTextContainer p{
+        font-size: 36px;
+    }
+  }

@@ -1,0 +1,176 @@
+.csBannerContainer{
+    background-color: #FFD466;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.ctHeaderContainer{
+    margin-bottom: 30px;
+}
+
+.contactusRow{
+    padding: 2px;
+}
+
+.ctHeaderText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: black; 
+}
+
+.contactInfoContainer{
+    text-align: center;
+}
+
+.iconTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactInfoContainer h6{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: black; 
+}
+
+.contactInfoContainer p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black; 
+}
+
+.addressText{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: black; 
+}
+
+.contactNumberInput{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: black; 
+}
+
+
+.contactNumberInput::placeholder{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: black; 
+}
+
+.connectmailtext, .connectnumbertext{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: black; 
+}
+
+.msgButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgBtn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white; 
+   border: none;
+   border-radius: 10px;
+   box-shadow: rgba(252, 248, 248, 0.55) 1.98px 1.98px 2.6px;
+}
+
+.msgBtn p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
+
+@media (min-width: 370px) {
+    .benfitTextContainer p{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 576px) {
+    .contactInfoContainer{
+        text-align: left;
+    }
+    
+    .iconTextContainer{
+        align-items: flex-start;
+    }
+    .contactInfoContainer h6{
+        font-size: 24px;
+    }
+    .contactInfoContainer p{
+        font-size: 20px;
+    }
+    .connectmailtext, .connectnumbertext{
+        font-size: 14px;
+    }
+
+    .addressText{
+        font-size: 14px;
+    }
+    .msgButtonContainer{
+        justify-content: flex-start;
+    }
+    .contactusRow{
+        padding: 8px;
+    }
+    
+  }
+  
+  @media (min-width: 768px) {
+    .contactInfoContainer h6{
+        font-size: 26px;
+    }
+    .contactInfoContainer p{
+        font-size: 28px;
+    }
+    .connectmailtext, .connectnumbertext{
+        font-size: 16px;
+    }
+    .addressText{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .contactInfoContainer h6{
+        font-size: 28px;
+    }
+    .contactInfoContainer p{
+        font-size: 30px;
+    }
+    .connectmailtext, .connectnumbertext{
+        font-size: 18px;
+    }
+    .addressText{
+        font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .benifitbannerHeading{
+        font-size: 26px;
+    }
+  }

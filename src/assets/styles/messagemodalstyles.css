@@ -1,0 +1,97 @@
+.message-modal{
+    overflow: hidden;
+}
+.modalMessageBody{
+    background-color: white;
+    border-radius: 20px;
+    padding: 0;
+}
+
+
+.message-modal .modal-header,
+.message-modal .modal-footer {
+    border: none;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.message-modal .modal-dialog {
+    max-height: 400px; /* Ensuring that the dialog doesn't exceed this height */
+    overflow-y: auto;  /* Allows scrolling */
+}
+
+.message-modal .modal-content {
+    max-height: 400px;  /* Same as modal-dialog to reinforce the maximum height */
+    overflow-y: auto;  /* Allows scrolling */
+}
+
+.sendMessageInput{
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    background-color: #F9E9E9;
+    font-style: normal;
+    font-size: 10px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 9px;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+.sendButton{
+    position: absolute;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    top: 4px;
+    bottom: 4px; /* adjust as needed */
+    right: 5px; /* adjust as needed */
+    z-index: 5;
+    width: 90px; 
+    border: none;
+    background-color: #DC143C;
+    border-radius: 5px;
+    
+}
+
+.chatBotInput{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: black; 
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 2px 2px;
+}
+
+.submitCrackerButton{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    width: 90px; 
+    border: none;
+    background-color: #DC143C;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .message-modal .modal-dialog {
+        max-height: 400px; /* Ensuring that the dialog doesn't exceed this height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+    .message-modal .modal-content {
+        max-height: 400px;  /* Same as modal-dialog to reinforce the maximum height */
+        overflow-y: auto;  /* Allows scrolling */
+    }
+    .message-modal .modal-content::-webkit-scrollbar {
+        width: 6px; /* Minimal width to keep it functional but less noticeable */
+        background-color: transparent; /* Ensures scrollbar does not have a background */
+    }
+    
+    .message-modal .modal-content::-webkit-scrollbar-thumb {
+        background-color: rgba(220, 20, 60, 0.5); /* Same color as your proceed button but with transparency */
+    }
+    .cartitemName{
+        font-size: 18px;
+    }
+  }
